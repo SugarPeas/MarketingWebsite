@@ -1,0 +1,54 @@
+body{
+	margin: 0;
+}
+
+img{
+	display: block;
+}
+
+#main-container{
+
+}
+
+#hero{
+	background-color: #628577;
+	height: 516px;
+}
+
+#about{
+	background-color:#FBF39F;
+	height: 574px;
+}
+
+#samples{
+	width: 768px;
+	margin: 0 auto;
+}
+
+#samples{
+}
+
+#tech-section{
+	height: 650px;
+	background-color: #00A287;
+}
+
+#interactive-section img{
+	margin:0;
+}
+
+#interactive-section{
+	width: 768px;
+	margin: 0 auto;
+}
+
+#team-section{
+	height: 640px;
+	background-color: #F1623E;
+	margin-top: -10px;
+}
+
+#footer{
+	height: 70px;
+	background-color: #FBF39F;
+}
