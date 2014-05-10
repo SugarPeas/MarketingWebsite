@@ -8,13 +8,13 @@ $(document).ready(function(){
 
 		modals:'div.modal',
 
-		animationEffect: 'slidedown',
+		animationEffect: 'fadeIn',
 
 		animationSpeed: 400,
 
 		moveModalSpeed: 'slow',
 
-		background: '00c2ff',
+		background: '212121',
 
 		opacity: 0.8,
 
@@ -24,13 +24,15 @@ $(document).ready(function(){
 
 		closeByEscape: true,
 
-		moveOnScroll: true,
+		moveOnScroll: false,
 
 		resizeWindow: true,
 
 		video:'http://player.vimeo.com/video/9641036?color=eb5a3d',
 
-		close:'.closeBtn'
+		close:'.closeBtn',
+
+		videoClass: 'video'
 
 	});
 });
