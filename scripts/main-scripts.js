@@ -36,3 +36,11 @@ $(document).ready(function(){
 
 	});
 });
+
+
+$(".gallery-expand").click(function(){
+  $(this).animate({
+    height: "460px"
+  }, 3000 );
+});
+
