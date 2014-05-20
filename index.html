@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
-	
+	<meta charset="UTF-8">
 	
 	<head>
 	
 		<title>WanderLust</title>
 		<link rel="stylesheet" type="text/css" href="styles.css">
 		<link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
-	
-	
+		<link rel="stylesheet" href="venobox.css" type="text/css" media="screen" />	
 	</head>
 	<body>
 
@@ -39,21 +38,21 @@
 		
 		<div id= "gallery"> 
 			
-			<div id="G1" class="gallery-expand">
+			<div id="G1" class="gallery-expand hide">
 				<img src="images/11_walking.png" id="myWalking">
+				<p>Take a relaxing hike on a wooded trail. Using your walking stick, you progress through the experience. You are welcomed with a gentle breeze and the sounds of wildlife around you.</p>
 			</div>
 			
-			<div id="G2" class="gallery-expand">
+			<div id="G2" class="gallery-expand hide">
 				<img src="images/12_climbing.png" id="myClimbing">
+				<p>Rock climbing is hard work but rewarding! A challenging scene where you must have endurance and patience to make it to the top! Don't worry! You are rewarded with a beautiful view at the top.</p>
 			</div>
 			
-			<div id="G3" class="gallery-expand">
+			<div id="G3" class="gallery-expand hide">
 				<img src="images/13_panorama.png" id="myPanorama">
+				<p>Take in the beauty at the top of the mountain! Here you are rewarded with a beautiful panormaic view. Take your time and reflect on all the hard work it took to get here!</p>
 			</div>
-			
-			<div id="G4" class="gallery-expand">
-				<img src="images/14_exhibit.png" id="myExhibit">
-			</div>
+		
 			
 		</div>
 		
@@ -102,29 +101,16 @@
 					</div>
 				</div>
 			</div>
-			<a class="modalLink" href="">
-				<img src="images/07_Techplay_Button.png"id="myTechplay">
-			</a>
-
-			<div class="overlay"></div>
-
-			<div class="modal">
-				<a href="#" class="closeBtn">X</a>
-				<iframe src="//player.vimeo.com/video/9641036" width="500" height="375" class="video" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-			</div>
 		</div>
 
 
-		
 		<div id="interactive-section">
 			<div id="ExhibitionBKGD">
-			<img src="images/09_launchinstallment.png" id="launchplay">	
+				<a class="modalLink" data-type="vimeo" href="http://vimeo.com/95558093">
+					<img src="images/installation_video_button.png" width="360" height="80" id="launchplay">
+				</a>
 			</div>
-			
 		</div>
-
-
-		
 
 		<div id="team-section">
 			<h1>WANDERLUST</h1>
@@ -183,7 +169,7 @@
 	<h4> Terms & Privacy</h4>
 	</div>-->
 	<script type="text/javascript" src="scripts/jquery-2.1.1.min.js"></script>
-	<script type="text/javascript" src="scripts/jquery.modal.min.js"></script>
+	<script type="text/javascript" src="scripts/venobox.min.js"></script>	
 	<script type="text/javascript" src="scripts/main-scripts.js"></script>
 	</body>
 </html>

@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'Proxima';
-  src: url('ProximaNova-Regular.otf') format('truetype'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: url('fonts/ProximaNova-Regular.otf') format('truetype'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 @font-face{
 	font-family: 'Proxima Bold';
-	src: url('ProximaNova-Bold.otf') format('truetype');
+	src: url('fonts/ProximaNova-Bold.otf') format('truetype');
 }
 
 body{
@@ -59,6 +59,7 @@ h4 {
 #PlayForest{background-image: url("images/Wanderlust_banner.jpg");
 			width:1440px;
 			height:920px;
+			margin: 0 auto;
 			}
 
 #header-logo{
@@ -92,11 +93,6 @@ h4 {
 	
 }
 
-.sample-section{
-}
-
-#samples{
-}
 
 #gallery{
 
@@ -108,26 +104,38 @@ h4 {
 	text-align: center;
 }
 
-#G1{background-image: url("images/02BKDG_Walking.jpg");
-	width:1440px;
-	height:230px;
+#G1{background-image: url("images/trail-bg.png");
+
 	}
 	
-#G2{background-image: url("images/03BKDG_Climbing.jpg");
-	width:1440px;
-	height:230px;
+#G2{background-image: url("images/rockclimbing-bg.png");
+
 	}
 	
-#G3{background-image: url("images/04BKDG_Panorama.jpg");
-	width:1440px;
-	height:230px;
+#G3{background-image: url("images/pano-bg.png");
+
 	}
 	
-	
-#G4{background-image: url("images/05BKDG_Exhibition.jpg");
-	width:1440px;
-	height:230px;
-	}
+
+.gallery-expand{
+	width: 1440px;
+	height: 230px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	cursor: hand;
+	overflow: hidden;
+}
+
+
+.gallery-expand p{
+	font-family: 'Proxima Bold', Fallback, sans-serif;
+	color: #FFFFFF;
+	font-weight: 300;
+	width: 840px;
+	margin: 0 auto;
+	font-size: 20px;
+	line-height: 30px;
+}
 
 #myWalking{
 	width:755px;
@@ -153,7 +161,7 @@ h4 {
 #tech-section{
 	height: 830px;
 	width: 1440px;
-	margin: 100px auto 0px;
+	margin: 70px auto 0px;
 	overflow: hidden;
 }
 
@@ -205,9 +213,9 @@ h4 {
 }
 
 #myTechplay{
-	width:446px;
-	height: 68px;
-	margin:0 498px;
+	width:360px;
+	height: 80px;
+	margin:0 530px;
 }
 
 #interactive-section{
@@ -223,8 +231,7 @@ h4 {
 }
 
 #launchplay{
-	width:215px;
-	margin: 775px 614px;
+	margin: 150px 534px;
 }
 
 #team-section{
